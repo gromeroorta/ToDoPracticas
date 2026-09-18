@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Main {
     private static int siguienteId = 1;
 
-    public static void main(String[] args) {
+    static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Tarea> tareas = new ArrayList<>();
         int opcion = 0;
